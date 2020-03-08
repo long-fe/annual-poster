@@ -11,11 +11,9 @@ charsh-kop
 ```
 
 ## 项目简介
-```
 基于 vue-cli
 生成海报：html2canvas
 分享链接：[微信公众号开发相关内容](https://developers.weixin.qq.com/doc/offiaccount/OA_Web_Apps/JS-SDK.html)
-```
 
 ## Project setup
 ```
