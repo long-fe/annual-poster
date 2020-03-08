@@ -1,0 +1,52 @@
+.home-bg {
+    height: 100%;
+    width: 100%;
+}
+.big-bg {
+    // background-color: aqua;
+    height: 100%;
+    width: 100%;
+    background: url('~@/assets/homeBG.png') no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    .row-bg {
+        background: url('~@/assets/row.png') no-repeat;
+        background-size: 100% 100%;
+        width: 5rem;
+        height: 5rem;
+        position: absolute;
+        left: 50%;
+        top: 35rem;
+        transform: translate(-50%, -50%);
+    }
+    .animate-rowup {    
+        animation-name: rowUp;
+        -webkit-animation-name: rowUp;
+        animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: infinite;
+        animation-duration: 1s;
+        -webkit-animation-duration: 1s;
+    }
+}
+@keyframes rowUp {
+    0% {
+        top:35rem;
+     }
+    50% {
+        top: 34rem;    
+    }
+    100% {
+        top:35rem;
+    }
+}
+@-webkit-keyframes rowUp {
+    0% {
+        top:35rem;
+     }
+    50% {
+        top: 34rem;    
+    }
+    100% {
+        top:35rem;
+    }
+}
